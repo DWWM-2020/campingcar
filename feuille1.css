@@ -1,0 +1,295 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+body#presentation_hebergement{
+    padding:0;
+    margin:0;
+    max-width: auto;
+    height: auto;
+    background: url(../image/background_page_accueil.jpg)no-repeat center fixed ; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+     /* background-size: cover; /* version standardisée */  
+           
+/*}*/
+
+.footer{
+  padding:0;
+  margin:0;
+  max-width: auto;
+  height: auto;
+}
+
+body#camping{
+    padding:0;
+    margin:0;
+    max-width: 100%;
+    height: auto;
+    background: url(../image/HOME-CAMPING-CAR.jpg)no-repeat center fixed ; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+      background-size: cover; /* version standardisée */  
+           
+  }
+
+
+.hebergement{
+  background-position-x: auto;
+  
+}
+
+
+/* texte defilement*/
+section
+{
+    color:white;
+    font-family: IBM Plex Mono, monospace;
+    background: black;
+    padding: 50px;
+
+}
+
+
+/* bandeau*/
+
+.bg-light{
+
+ opacity: 0.80;
+ margin-top:5%;
+ width:40%;
+ height: 20%;
+ justify-content: space-around ;
+}
+
+H4{
+ color: black; 
+}*/
+
+
+
+.jumbotron{
+  opacity: 0.70;
+  padding-top: 2%;
+  margin-top: 5%;
+  margin-bottom: 10%; 
+  border-radius:2%;
+  justify-content: center;
+  opacity: 0.80;
+  
+  
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width : 585px){ 
+  .jumbotron {
+    width: auto;
+    display:block;
+    margin-bottom: 10px;
+    margin-right: 42px;
+   
+  }
+}
+/*container*/
+
+/* Responsive columns */
+/*
+@media screen and (max-width:480px) {
+  .column {
+    width: 100%;
+    display: flex;
+    
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){ 
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  }
+
+  @media only screen and (min-device-width : 700px) and (max-device-width : 1250px){ 
+    .column {
+      width: 60%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    }
+
+    @media only screen and (min-device-width : 653px) and (max-device-width : 280px){ 
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 1px;
+        justify-content: center;
+      }
+      }
+  
+      @media only screen and (min-device-width : 601px) and (max-device-width : 809px){ 
+        .column {
+          width: 50%;
+          display: block;
+          margin-bottom: 10px;
+        }
+        }
+      
+        @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){ 
+          .column {
+            width: 60%;
+            display: block;
+            margin-bottom: 15px;
+          }
+          }
+
+
+
+
+/*
+.jumbotron_2{
+  padding-top: 2%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-radius:2%;
+  justify-content: center;
+  background-color:white;
+  
+}
+
+/*container petits*/
+
+.row{
+  border-radius: 5%;
+  justify-content:space-around ;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+  justify-content: center;
+}
+
+
+
+
+/* Float four columns side by side */
+
+.column {
+  float: left;
+  width: 25%;
+  height: 20%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+
+.row {margin: 0 -5px; }
+
+/* Clear floats after the columns */
+
+.row:after {
+  content:normal;
+  display: table;
+  clear: both;
+}
+
+/*iframe*/
+
+
+/*
+
+@media only screen and (max-width:768px) {
+  iframe {
+    width: 100%;
+  justify-content: center;
+  
+  }
+  width="640" height="480" texte="center
+}
+*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px){ 
+  iframe {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content:center ;
+  
+  }
+  }
+
+
+/* Style des cards */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/*tableau*/
+/*
+.column
+{
+ width: 850px;
+}
+
+/*espace membres*/
+
+.register
+{
+color:white;
+
+}
+
+/*actualité php*/
+
+.commentaire
+{
+  text-align: left;
+  color:blue;
+}
+
+#inscription
+{
+position: absolute;
+left:30%;
+top: 20%;
+color: white;
+text-align: center;
+}
+
+/*tableau commentaire*/
+
+
+.section-message
+{
+width: 300%;
+}
+
+p
+{
+  word-wrap: break-word;   
+}
+
+/*titre inscription*/
+
+#inscript p
+{
+font-size: x-large;
+margin-top: 100%;
+margin-left: 40%;
+color:orange;
+}
+

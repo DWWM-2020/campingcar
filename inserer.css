@@ -1,0 +1,78 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body#presentation_hebergement{
+    padding:0;
+    margin:0;
+    max-width: 100%;
+    height: auto;
+    background: url(../image/background_page_accueil.jpg)no-repeat center fixed ; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+      background-size: cover; /* version standardisée */  
+           
+}
+
+body#camping{
+  padding:0;
+  margin:0;
+  max-width: 100%;
+  height: auto;
+  background: url(../image/HOME-CAMPING-CAR.jpg)no-repeat center fixed ; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */  
+         
+}
+
+
+
+
+.ajout{
+    margin-top: 5;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
+    opacity: 0.50;
+    padding-top: 2%;
+    margin-bottom: 10%; 
+    border-radius:2%;
+    text-align: center;
+    background-color:white;
+    color:rgb(54, 54, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+  }
+  
+  /*placeholde*/
+  #camping::placeholder
+  {
+    color: rgb(233, 99, 106);
+    opacity: 0.50;
+}
+#Ville::placeholder
+{
+  color: rgb(233, 99, 106);
+  opacity:  0.50;
+}
+
+#code_postal::placeholder
+{
+  color: rgb(233, 99, 106);
+  opacity:  0.50;
+}
+
+#telephone::placeholder
+{
+  color:rgb(233,99,106);
+  opacity:  0.50;
+}
+
+#note::placeholder
+{
+  color:rgb(233,99,106);
+  opacity:  0.50;
+}
+

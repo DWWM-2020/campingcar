@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #DA5705 0%, #760000 100%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* HEADER */
+
+.header {
+    max-width: 100%;
+    height: auto;
+    background: no-repeat fixed url(../img/background_page_accueil.jpg);
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+}
+
+.logo_accueil {
+    padding: 0;
+    width: auto;
+    height: 150px;
+    margin-left: 60%;
+    margin-top: 40px;
+}
+
+.navigation {
+    background-color: rgba(31, 26, 23, 0.7);
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 91px;
+}
+
+.navigation a {
+    margin: auto;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.header h1 {
+    letter-spacing: 0.1em;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* ARTICLES */
+
+.article {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 5%;
+    border-radius: 50px;
+    padding-bottom: 20px;
+}
+
+.article h2 {
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: #EA5A00;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.article p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.article_1 {
+    background-color: white;
+    margin-bottom: 150px;
+}
+
+.main .article_1 h2 {
+    text-shadow: none;
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: #EA5A00;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.art-img {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.art-img img {
+    width: 25%;
+}
+
+.table-gite {
+    margin-top: 40px;
+}
+
+.table-gite thead th {
+    text-align: center;
+}
+
+
+/* END ARTICLES */
+
+
+/* FOOTER  */
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #1F1A17;
+    text-align: center;
+}
+
+.title {
+    color: #0F8581;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.contact {
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0.1em;
+    margin: auto;
+}
+
+.contact a {
+    color: white;
+}
+
+.reseaux-sociaux {
+    margin: auto;
+}
+
+.reseaux-sociaux img {
+    width: 15%;
+    margin: auto;
+}
+
+
+/* END FOOTER */
+
+.main {
+    padding: 0;
+    margin: 0;
+}
+
+.main h2 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-shadow: 2px 1px 1px black;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.separator {
+    width: 50%;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.img_presentation {
+    margin: auto;
+}
+
+.card {
+    margin: 50px auto;
+}
+
+.card h3,
+.card p {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    height: 40px;
+    margin-top: 50px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1025px) {
+    .title {
+        font-size: 1.2em;
+    }
+    .contact {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 893px) {
+    .navigation a {
+        padding: 0.7em;
+        font-size: 1em;
+    }
+    .logo_accueil {
+        margin-top: 5px;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .title {
+        font-size: 1em;
+    }
+    .contact {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 687px) {
+    .navigation {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .navigation a {
+        font-size: 0.8em;
+    }
+    .logo_accueil {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .title {
+        font-size: 1em;
+    }
+    .contact {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        font-size: 0.8em;
+    }
+    .contact {
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    .reseaux-sociaux {
+        width: 200px;
+    }
+    .img-fluid {
+        margin: auto;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 447px) {
+    .logo_accueil {
+        margin-top: 20px;
+        width: 80px;
+        height: auto;
+    }
+    .header h1 {
+        font-size: 1.5em;
+    }
+}

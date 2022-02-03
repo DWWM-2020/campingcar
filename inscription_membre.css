@@ -1,0 +1,38 @@
+
+
+body#presentation_hebergement{
+    padding:0;
+    margin:0;
+    max-width: 100%;
+    height: auto;
+    background: url(../image/background_page_accueil.jpg)no-repeat center fixed ; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+      background-size: cover; /* version standardisée */  
+           
+}
+
+body#camping{
+  padding:0;
+  margin:0;
+  max-width: 100%;
+  height: auto;
+  background: url(../image/camping_nuit.jpg)no-repeat center fixed ; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */  
+         
+}
+
+.titre
+{
+margin-top:5%;
+margin-left: 40%;
+
+}
+
+/*couleur cases inscription_membre*/
+
+#form_inscription
+{
+  color:blue;
+  
+}

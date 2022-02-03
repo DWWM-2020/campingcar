@@ -1,0 +1,31 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/*titre inscription*/
+
+.inscription
+{
+font-size: x-large;
+margin-top: 100%;
+margin-left: 40%;
+color:orange;
+}
+
+.bienvenue
+{
+  color: white;
+  margin-top: 20%;
+  margin-left: 40%;
+  color:yellow;
+}
+
+
+
